@@ -25,7 +25,7 @@ const getProductData = function () {
       if (response.ok) {
         return response.json();
       } else {
-        throw new Error("Errore nel recupero dei dettagli dell'evento");
+        throw new Error("Errore nel recupero dei dettagli del prodotto");
       }
     })
     .then((element) => {
